@@ -8,7 +8,7 @@
 </head>
 <body>
     <header>
-        <nav>
+        <nav class="container-wide">
             <logo>
                 <img src="./imgs/sightlogo.png" alt="Logo">
             </logo>
@@ -20,7 +20,7 @@
         </nav>
     </header> 
     <div class="hero">
-        <div class="hero-content">
+        <div class="container-wide hero-content">
             <div class="hero-info">
                 <h1>Welcome to Ironsight Media</h1>
                 <p>Your one stop to achieving all your media needs. Your media presence is the single best investment you can make.</p>
@@ -33,29 +33,31 @@
     </div>
 
     <section class="information-section">
-        <h2>Some random information.</h2>
-        <div class="service-card-carousel">
-            <div class="service-card-1">
-                <div class="image-card"><img src="./imgs/pexels-pixabay-267614.jpg" alt="Service 1"></div>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut laoreet.</p>
-            </div>
-            <div class="service-card-2">
-                <div class="image-card"><img src="./imgs/pexels-pixabay-267614.jpg" alt="Service 2"></div>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut laoreet.</p>
-            </div>
-            <div class="service-card-3">
-                <div class="image-card"><img src="./imgs/pexels-pixabay-267614.jpg" alt="Service 3"></div>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut laoreet.</p>
-            </div>      
-            <div class="service-card-4">
-                <div class="image-card"><img src="./imgs/pexels-pixabay-267614.jpg" alt="Service 4"></div>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut laoreet.</p>
-            </div>
-        </div>     
+        <div class="container-narrow">
+            <h2>Some random information.</h2>
+            <div class="service-card-carousel">
+                <div class="service-card-1">
+                    <div class="image-card"><img src="./imgs/pexels-pixabay-267614.jpg" alt="Service 1"></div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut laoreet.</p>
+                </div>
+                <div class="service-card-2">
+                    <div class="image-card"><img src="./imgs/pexels-pixabay-267614.jpg" alt="Service 2"></div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut laoreet.</p>
+                </div>
+                <div class="service-card-3">
+                    <div class="image-card"><img src="./imgs/pexels-pixabay-267614.jpg" alt="Service 3"></div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut laoreet.</p>
+                </div>      
+                <div class="service-card-4">
+                    <div class="image-card"><img src="./imgs/pexels-pixabay-267614.jpg" alt="Service 4"></div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut laoreet.</p>
+                </div>
+            </div> 
+        </div>    
     </section>
 
     <section class="qoute-section">   
-        <div class="qoute-card">
+        <div class="container-narrow qoute-card">
             <p><i>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut laoreet. 
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut laoreet.</i></p>
             <h2>- Thor, God of Thunder</h2>
@@ -63,15 +65,20 @@
     </section>
 
     <section class="call-to-action">
-        <div class="cta-card">
+        <div class="container-wide cta-card">
             <div class="cta-content">
                 <h2>Ready to get started?</h2>
                 <p>Join thousands of satisfied customers today!</p>
             </div>
-            <div class="cta-button">
-                <a href="#" class="cta-button"></a>>Sign up</a></button>
+            <div class="cta-button-container">
+                <a href="#" class="cta-button-invert">Sign up</a>
             </div>
         </div>     
     </section>
+    <footer class="footer">
+        <div class="container-wide footer-content">
+            <p>Copyright &copy; The Odin Project 2021</p>
+        </div>
+    </footer>
 </body>
 </html>
